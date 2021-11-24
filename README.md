@@ -1,51 +1,38 @@
 #sai charan HTML5-coursera-final-project 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Final Project</title>
+
+<title>Responsive Layout</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
-    <header>
-        <h1>Mukala sai charan kumar</h1>
-        <nav>
-            <a href = "http://www.gmail.com">One</a>
-            <a href = "http://www.facebook.com">Two</a>
-            <a href = "http://www.google.com">Three</a><br>
-            <br>
-    </nav>
-    </header>
-    <section>
-        <h2>Favorite Foods</h2>
-        <ul>
-            <li>Pav Bhaji</li>
-            <li>Gulab Jamun</li>
-            <li>Chicken</li>
-            <li>Egg</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Achievements</h2>
-        Progress in this course (100%)
-        <progress value="100" max="100"></progress>
-        <br>
-        Progress in the Specialization capstone (20%)
-        <progress value="20" max="100"></progress>
-        <br>
-        Progress in life goals (25%)
-        <progress value="25" max="100"></progress>
-    </section>
-    <section>
-        <h2>More About Me</h2>
-        <details>
-            <summary>My Childhood</summary>I grew up in Mumbai.I lived in a small house and I really miss the fun which I had back then.
-        </details>
-    </section>
-    <footer>
-        <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Web Design For Everyone">
-        This page was created by Mukala sai charan kumar.
-        To learn more about web design, visit
-        <a href="http://www.intro-webdesign.com/">Intro to Web Design</a>
-    </footer>
+<h1>Our Menu</h1>
+
+
+
+  <div class="col-lg-4 col-md-6 col-sm-12">
+  	<div class="box">
+  		<p class="content-name name1">Chicken</p>
+  		<p class="content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+  	</div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-sm-12">
+  	<div class="box">
+   		<p class="content-name name2">Beef</p>
+   		<p class="content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+  	</div>
+  </div>
+
+  <div class="col-lg-4 col-md-12 col-sm-12">
+  	<div class="box">
+  		<p class="content-name name3">Sushi</p>
+  		<p class="content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+  	</div>	
+  </div>
+
 </body>
-</html> 
+</html>
